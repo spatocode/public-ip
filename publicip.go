@@ -40,7 +40,7 @@ func initDnsData(version string) dnsData {
 	}
 
 	data := dnsData{
-		dnsServers: []dnsServer{googleServers, opendnsServers},
+		dnsServers: []dnsServer{opendnsServers, googleServers},
 	}
 	return data
 }
